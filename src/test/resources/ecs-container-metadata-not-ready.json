@@ -1,0 +1,27 @@
+{
+  "Cluster":"poc",
+  "ContainerInstanceARN":"arn:aws:ecs:us-east-2:775836073838:container-instance/c2e54429-1970-4fe4-9013-1dfb1cf35cb5",
+  "TaskARN":"arn:aws:ecs:us-east-2:775836073838:task/bee66728-bee9-4644-bc62-6497a1b26f17",
+  "ContainerID":"51eba18851e9838c1703c4d94cdd179df2890575728ef3f41d44fcbf9dcd48a7",
+  "ContainerName":"eureka",
+  "DockerContainerName":"/ecs-eureka-6-eureka-e09dfaa7a2fbf3b86200",
+  "ImageID":"sha256:9f5b863b28488870554df8c5ee115dc001bb2221b54d141e7c7a76e5dcf258af",
+  "ImageName":"775836073838.dkr.ecr.us-east-2.amazonaws.com/eureka:latest",
+  "PortMappings":[
+    {
+      "ContainerPort":8761,
+      "HostPort":32781,
+      "BindIp":"0.0.0.0",
+      "Protocol":"tcp"
+    }
+  ],
+  "Networks":[
+    {
+      "NetworkMode":"bridge",
+      "IPv4Addresses":[
+        "172.17.0.2"
+      ]
+    }
+  ],
+  "MetadataFileStatus":"INIT"
+}
