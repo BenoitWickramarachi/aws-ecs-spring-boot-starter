@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.inoneo</groupId>
-	<artifactId>aws-ecs-spring-boot-starter</artifactId>
+	<artifactId>eureka-aws-ecs-spring-boot-starter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>aws-ecs-spring-boot-starter</name>
+	<name>eureka-aws-ecs-spring-boot-starter</name>
 	<description>AWS ECS Spring Boot Starter</description>
 
 	<parent>
@@ -45,13 +45,13 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+	<!--<build>-->
+		<!--<plugins>-->
+			<!--<plugin>-->
+				<!--<groupId>org.springframework.boot</groupId>-->
+				<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+			<!--</plugin>-->
+		<!--</plugins>-->
+	<!--</build>-->
 
 </project>

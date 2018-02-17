@@ -28,7 +28,7 @@ public class AwsEcsConfig {
     }
 
     @Bean
-    public EurekaInstanceConfigBean eurekaInstanceConfig(InetUtils inetUtils,
+    public EurekaInstanceConfigBean eurekaInstanceConfigBean(InetUtils inetUtils,
                                                          EcsContainerMetadata ecsContainerMetadata) {
         EurekaInstanceConfigBean b = new EurekaInstanceConfigBean(inetUtils);
         AmazonInfo info = AmazonInfo.Builder.newBuilder().autoBuild("eureka");
