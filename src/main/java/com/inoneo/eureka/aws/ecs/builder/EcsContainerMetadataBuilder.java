@@ -1,7 +1,7 @@
-package com.inoneo.aws.ecs.builder;
+package com.inoneo.eureka.aws.ecs.builder;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inoneo.aws.ecs.model.EcsContainerMetadata;
+import com.inoneo.eureka.aws.ecs.model.EcsContainerMetadata;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.FileInputStream;

@@ -1,2 +1,2 @@
 # AutoConfigurations
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.inoneo.aws.ecs.config.AwsEcsConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.inoneo.eureka.aws.ecs.config.AwsEcsConfig

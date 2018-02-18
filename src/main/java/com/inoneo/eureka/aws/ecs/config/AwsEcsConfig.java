@@ -1,7 +1,7 @@
-package com.inoneo.aws.ecs.config;
+package com.inoneo.eureka.aws.ecs.config;
 
-import com.inoneo.aws.ecs.builder.EcsContainerMetadataBuilder;
-import com.inoneo.aws.ecs.model.EcsContainerMetadata;
+import com.inoneo.eureka.aws.ecs.builder.EcsContainerMetadataBuilder;
+import com.inoneo.eureka.aws.ecs.model.EcsContainerMetadata;
 import com.netflix.appinfo.AmazonInfo;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.cloud.commons.util.InetUtils;

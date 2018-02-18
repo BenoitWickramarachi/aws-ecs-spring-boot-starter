@@ -1,0 +1,2 @@
+awsecs:
+  enabled: true

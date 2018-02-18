@@ -1,12 +1,11 @@
-package com.inoneo.aws.ecs.builder;
+package com.inoneo.eureka.aws.ecs.builder;
 
-import com.inoneo.aws.ecs.model.EcsContainerMetadata;
+import com.inoneo.eureka.aws.ecs.model.EcsContainerMetadata;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.net.URISyntaxException;
 import java.net.URL;
-
 
 public class EcsContainerMetadataBuilderUnitSpec {
 

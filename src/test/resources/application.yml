@@ -1,0 +1,7 @@
+awsecs:
+  enabled: true
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false

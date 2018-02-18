@@ -1,4 +1,4 @@
-package com.inoneo.aws.ecs.model;
+package com.inoneo.eureka.aws.ecs.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
