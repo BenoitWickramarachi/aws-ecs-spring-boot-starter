@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.net.URISyntaxException;
 import java.net.URL;
 
-public class EcsContainerMetadataBuilderUnitSpec {
+public class EcsContainerMetadataBuilderTests {
 
     public static final String INVALID_FILE_JSON = "invalidFile.json";
 
