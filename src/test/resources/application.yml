@@ -1,5 +1,7 @@
 awsecs:
   enabled: true
+  useEnvVariable: false
+  metadataFileName: classpath:ecs-container-metadata.json
 
 eureka:
   client:
